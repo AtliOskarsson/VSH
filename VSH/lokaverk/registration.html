@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="registration.css">
+  <link rel="shortcut icon" href="fanfest_logo.ico">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta charset="utf-8">
+<header>
+    <div class="links">
+        <img src="circle.png" class="prism"></img>
+        <img src="circle.png" class="prism2"></img>
+        <img src="circle.png" class="prism3"></img>
+    </div>
+    <nav class="topmenu">
+        <ul>
+            <li><a href="http://tsuts.tskoli.is/2t/0202002190/lokaverk/index.html">Home</a></li>
+            <li><a href="http://tsuts.tskoli.is/2t/1009002970/Vefsiduhonnun/VSH_verkefni_vor_2017/Lokaverkefni/valkyrie_gunjack.html">Games</a></li>
+            <li><a href="http://tsuts.tskoli.is/2t/0202002190/lokaverk/registration.html">Registration</a></li>
+        </ul>
+    </nav>
+</header>
+</head>
+<body>
+
+ <form>
+        <h1>Eve FanFest</h1>
+        
+        <fieldset>
+          <legend><span class="number prism">:)</span>Basic info</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+          
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email">
+          
+          <label>Age:</label>
+          <input type="radio"  name="user_age"><label for="under_18" class="light">Under 18</label><br>
+          <input type="radio" name="user_age"><label for="over_18" class="light">18 or older</label>
+        </fieldset>
+        <fieldset>
+        <label for="job">Tickets:</label>
+        <select id="job" name="user_job">
+            <option>Tickets</option>
+            <option>Regular - 65$</option>
+            <option>VIP - 150$</option>
+            <option>VIP+ - 150.5$</option>
+        </select>
+        </fieldset>
+        <button type="submit">Sign Up</button>
+      </form>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Verkefni 1</title>
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+	<header>
+		<h1>Skráningarform og Tafla</h1>
+	</header>
+	<div class="group">
+		<h3>Dreki og Allt</h3>
+		<p>Það er enginn dreki illa farinn</p>
+	<table>
+	  <caption>Verðskrá</caption>
+		 <thead>
+		    <tr>
+		      <th scope="col" colspan="2">Verð</th>
+		      <th scope="col">Eigandi</th>
+		      <th scope="col">Frásögn</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr class="special">
+		      <td colspan="2">$ 1,500</td>
+		      <td>Luise Georgia</td>
+		      <td>Fæddist 1936</td>
+		    </tr>
+		    <tr>
+		      <td colspan="2">$ 3,500</td>
+		      <td>Óðinn Þórsson</td>
+		      <td>Fæddist 1950, Fer 450km/h</td>
+		    </tr>
+		    <tr class="special">
+		      <td colspan="2">$ 150,000</td>
+		      <td>Ludvik Carlson</td>
+		      <td>Fæddist 913, er í topp 100 elstu drekum í Norður-Evrópu</td>
+		    </tr>
+		  </tbody>
+		</table>
+	</div>
+	<div class="group">
+		<form action="#" method="post">
+
+		  <fieldset class="register-group">
+
+		    <label>
+		      Nafn
+		      <input type="text" name="name" placeholder="Fullt nafn" required>
+		    </label>
+
+		    <table>
+			Sími
+			<input 
+			type="text" 
+			name="sími"
+			placeholder="123 4567" 
+			required>
+			</table>
+
+		    <label>
+		      Email
+		      <input type="email" name="email" placeholder="Tölvupóstur" required>
+		    </label>
+		    
+		    <label>
+		      Athugasemdir
+		      <textarea name="comments"></textarea>
+		    </label>
+
+		  </fieldset>
+
+		  <input type="submit" name="submit" value="Panta Dreka">
+
+		</form>
+
+	</div>
+
+
+
+</body>
+</html>

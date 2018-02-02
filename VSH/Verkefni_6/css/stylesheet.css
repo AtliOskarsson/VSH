@@ -1,0 +1,118 @@
+
+.wrapper {
+	display: block;
+}
+
+.titles {
+	-webkit-animation-name:titler;
+	-webkit-animation-duration:10s;
+	animation-name: titler;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	position: relative;
+	overflow: hidden;
+	color: white;
+}
+@-webkit-keyframes titler {
+	0% {left: 110%;}
+	50% {left: 0%;}
+	100% {left: 110%;}
+}
+
+
+.dog {
+	width: 500px;
+	height: 100px;
+	top: 105px;
+	font-size: 24px;
+	font-family: 'Space Mono', monospace;
+	background-color: green;
+	-webkit-animation-name: blink;
+	-webkit-animation-duration:5s;
+	-webkit-animation-delay: 2s;
+	animation-name: blink;
+	animation-duration: 3s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	position: relative;
+	z-index: 3;
+	overflow: hidden;
+}
+
+@-webkit-keyframes blink {
+	10% {top: 100px;}
+	20% {top: 105px;}
+	30% {top: 105px}
+
+}
+
+@keyframes blink {
+	0% {top: 105px;}
+	10% {top: 100px;}
+	20% {top: 105px;}
+}
+
+.background {
+	height: 150px;
+	width: 500px;
+	top: 0;
+	position: absolute;
+	z-index: 1;
+}
+.cat {
+	width: 50px;
+	height: 100px;
+	top: 28px;
+	left: 250px;
+	background-color: green;
+	-webkit-animation-name: hop;
+	-webkit-animation-duration:5s;
+	-webkit-animation-delay: 2s;
+	animation-name: hop;
+	animation-duration: 3s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	position: absolute;
+	z-index: 2;
+}
+.connected {
+	width: 50px;
+    position: element(#Target);
+    transform: translateY(-40%);
+}
+
+@-webkit-keyframes hop {
+	13% {top: 13px;}
+	20% {top: 28px;}
+	30% {top: 17px;}
+	37% {top: 28px;}
+	45% {top: 18px;}
+	52% {top: 28px;}
+}
+
+@keyframes hop {
+	13% {top: 13px;}
+	20% {top: 28px;}
+	30% {top: 17px;}
+	37% {top: 28px;}
+	45% {top: 18px;}
+	52% {top: 28px;}
+}
+
+
+
+.ad {
+	left: -100em;
+	-webkit-animation-name:ad;
+	-webkit-animation-duration:10s;
+	animation-name: ad;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	position: relative;
+}
+@-webkit-keyframes ad {
+	0% {left:-250%;}
+	45% {left: 50%;}
+	55% {left: 50%;}
+	100% {left:250%;}
+}

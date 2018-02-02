@@ -1,0 +1,108 @@
+body {
+	background-image: url(dragonskin.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin: auto;
+	padding: 20px;
+}
+
+h1 {
+	color: #186634; 
+	background-color: #B5B1B3;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+img {
+	max-width: 100%;
+}
+
+th,
+td {
+  border-bottom: 1px solid black;
+  border-top:  1px solid black;
+  padding: 15px 20px;
+  width: 25%;
+}
+
+.special {
+	background-color: grey;
+}
+form {
+  margin-bottom: 22px;
+}
+input,
+select,
+textarea {
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.register-group label {
+  color: black;
+  cursor: pointer;
+  font-weight: 400;
+}
+.register-group input,
+.register-group select,
+.register-group textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+.register-group input,
+.register-group textarea {
+  width: 100%;
+}
+.register-group select {
+  height: 34px;
+  width: 60px;
+}
+.register-group textarea {
+  height: 78px;
+}
+
+
+div {
+	border:  0.5px solid black;
+	text-align: left;
+	max-width: 50em;
+	background-color: #B5B1B3;
+	border-radius: 8px;
+	padding: 30px;
+	margin: auto;
+}
+input {
+	margin: 2px;
+}
+
+
+.register-group input[type=text],
+.register-group input[type=email] {
+
+}
+
+
+
+
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}

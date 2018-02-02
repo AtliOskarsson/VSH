@@ -1,0 +1,206 @@
+
+body {
+	display: flex;
+	flex-flow: column;
+
+	background-color: grey;
+	max-width: 60em;
+	margin: 0 auto;
+	line-height: 2em;
+}
+
+nav {
+	order: 1;
+}
+
+header {
+	order: 2;
+}
+
+section {
+	order: 3;
+}
+
+footer {
+	order: 4;
+}
+
+header,
+nav,
+aside,
+footer {
+	flex: 1 1 0;
+}
+
+header {
+	padding: 5px;
+	background-color: darkorange;
+}
+
+section {
+	display: flex;
+	flex-flow: row;
+}
+
+footer {
+	padding: 10px;
+	background-color: lightblue;
+}
+nav {
+	background-color: black;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	display: inline;
+}
+
+a {
+	display: block;
+    padding: 25px;
+    background-color: #dddddd;
+    text-decoration: none;
+    margin-left: 10%;
+    color: black;
+}
+h1 {
+	position: ;
+}
+article {
+	padding: 15px;
+	background-color: purple;
+}
+
+aside {
+	padding: 15px;
+}
+
+p {
+	text-align: center;
+}
+
+.dalkur {
+	background-color: darkblue;
+	color: darkgrey;
+}
+
+.dalkur_I {
+	background-color: darkred;
+	color: darkgrey;
+}
+
+.bottom-menu {
+	display: block;
+	position: fixed;
+	bottom: -2em;
+	left: 0;
+	height: 2em;
+	width: 100%;
+	background-color: brown;
+	text-align: 50%;
+	font-size: 35px;
+	z-index: 998;
+	color: orange;
+}
+
+.sMedia {
+	display: block;
+	position: fixed;
+	top: 4em;
+	left: 0;
+	height: 12em;
+	width: 2em;
+	z-index: 998;
+}
+
+.sMedia div{
+	position: relative;
+	height: 2em;
+	width: 2em;
+	margin: 0;
+	padding: 0.5em .6em 0 .6em;
+}
+
+.sMedia a {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: grey;
+	text-decoration: none;
+	font: 2em;
+}
+
+
+.twitter {
+	background-color: lightblue;
+}
+
+.twitter:active,
+.twitter:hover {
+	background-color: darkblue;
+}
+
+.outlook {
+	background-color: red;
+}
+
+.outlook:active,
+.outlook:hover {
+	background-color: #662926;
+}
+
+.facebook {
+	background-color: #31521E;
+}
+
+.facebook:active,
+.facebook:hover {
+	background-color: #259829;
+}
+
+.tskoli {
+	background-color: #D6752E;
+}
+
+.tskoli:active,
+.tskoli:hover {
+	background-color: orange;
+
+}
+
+@media screen and (max-width: 64em) {
+	.sMedia {
+		position: fixed;
+		top: 50%;
+		left: 90%;
+	}
+}
+
+@media screen and (max-width: 48em) {
+	li {
+		display: auto;
+	}
+
+	li a {
+		display: auto;
+	}
+}
+
+@media screen and (max-width: 37.5em) {
+	body {
+		background-color: black;
+	}
+	.bottommenu {
+		font-size: 12px;
+
+	}
+}
+@media screen and (min-width: 1080px) {
+	body {
+		background-color: black;
+	}
+}
